@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="tipoAlojamiento" >
+        <item>Tipo de alojamiento</item>
+        <item>Hotel</item>
+        <item>Apartamento</item>
+        <item>Apartahotel</item>
+        <item>Casa rural</item>
+    </string-array>
+</resources>

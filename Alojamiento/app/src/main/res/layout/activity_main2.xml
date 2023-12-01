@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="500dp"
+    tools:context=".MainActivity2"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:text="Ha elegido"
+        android:textSize="40sp"
+        />
+    <TextView
+        android:id="@+id/tvApartamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="Apartamento"
+        android:paddingStart="30dp"
+        android:textSize="25dp" />
+    <TextView
+        android:id="@+id/tvAdultos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="2 adultos"
+        android:paddingStart="30dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tvNinios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="3 niños"
+        android:paddingStart="30dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tvDesde"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="Desde: 12/10/2022"
+        android:paddingStart="30dp"
+        android:textSize="25dp"/>
+    <TextView
+        android:id="@+id/tvHasta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        tools:text="Hasta: 15/10/2022"
+        android:paddingStart="30dp"
+        android:textSize="25dp"/>
+</LinearLayout>
